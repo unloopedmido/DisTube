@@ -362,7 +362,7 @@ export class DisTube extends TypedEmitter<DisTubeEvents> {
    * @returns {Promise<Playlist>}
    * @param {Array<string|Song|SearchResult>} songs Array of url, Song or SearchResult
    * @param {Object} [options] Optional options
-   * @param {Discord.GuildMember} [options.message] A message from guild channel | A guild member
+   * @param {Discord.GuildMember} [options.member] A guild member creating the playlist
    * @param {Object} [options.properties] Additional properties such as `name`
    * @param {boolean} [options.parallel=true] Whether or not fetch the songs in parallel
    * @param {*} [options.metadata] Metadata
